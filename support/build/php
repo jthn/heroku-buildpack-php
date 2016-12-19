@@ -74,6 +74,7 @@ export PATH=${OUT_PREFIX}/bin:$PATH
     --prefix=${OUT_PREFIX} \
     --with-config-file-path=/app/.heroku/php/etc/php \
     --with-config-file-scan-dir=/app/.heroku/php/etc/php/conf.d \
+    --enable-fd-setsize=2048 \
     --disable-phpdbg \
     --enable-fpm \
     --with-bz2 \
